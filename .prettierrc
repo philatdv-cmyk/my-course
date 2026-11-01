@@ -1,0 +1,5 @@
+{
+  "printWidth": 120,
+  "bracketSameLine": true,
+  "html.format.wrapLineLength": 0
+}
