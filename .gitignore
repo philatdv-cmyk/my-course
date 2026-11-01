@@ -7,5 +7,9 @@ desktop.ini
 *.log
 *.tmp
 
+# Настройки редактора
+.vscode/
+.idea/
+
 # Зависимости (пригодится, когда дойдём до npm)
 node_modules/
