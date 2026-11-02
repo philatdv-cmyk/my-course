@@ -1,9 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Филатов Дмитрий — Задание 4</title>
   </head>
-  <body></body>
+  <body>
+    <div style="max-width: 500px; border: 2px solid #2d4ce8; padding: 20px; margin-bottom: 30px; box-shadow: 0px 0px 10px #5e5e5e">
+    <h1>Мой дневник оценок</h1>
+      <p>Ниже представлен список моих оценок по различным предметам. <strong>Данный список не обновляется автоматически</strong></p>
+      <ol>
+        <li><i>Математика - 4</i></li>
+        <li><i>Информатика - 5</i></li>
+        <li><i>Русский язык - 5</i></li>
+        <li><i>История - 5</i></li>
+        <li><i>Биология - 5</i></li>
+      </ol>
+      <img src="lesson3/images/notebook.jpg" alt="Мой дневник">
+      <p><strong>Скоро</strong> мой дневник пополнится новыми предметами и оценками!</p>
+    </div>
+    <div style="max-width: 520px; border: 2px solid #000000; padding: 10px; margin-bottom: 10px;">
+      <h2>Тег &lt;div&gt; и &lt;span&gt;</h2>
+      <p style="background-color: rgb(131, 179, 61); color: rgb(2, 2, 2); padding: 6px;"> 
+        Мы использовали тег &lt;div&gt;, чтобы сгруппировать два параграфа и добавить фон к тексту, а для того, чтобы изменить цвет <span style="color: #3784CE">этого слова</span> мы использовали тег &lt;span&gt;.
+        Обратите внимание, что тег &lt;div&gt; является блочным элементом, до и после него добавляется разрыв строки.
+      </p>
+    </div>
+    <div style="max-width: 520px; border: 2px solid #000000; padding: 10px; margin-bottom: 10px; background-image: url('lesson3/images/ezh.png'); background-size: cover; background-position: center; color: rgb(16, 0, 0); text-shadow: 1px 1px 1px rgb(255, 255, 255);">
+      <h2 style="text-align: center;">Как поймать льва?</h2>
+      <h3 style="text-align: right;">Метод перебора</h3>
+      <p>Делим пустыню на ряд элементарных участков, размер которых совпадает с габаритными размерами льва, но при этом меньше размера клетки. Далее простым перебором определяем участок, в котором находится лев, что автоматически приводит к его поимке.</p>
+      <h3 style="text-align: right;"> Метод дихотомии</h3>
+      <p>Делим пустыню на две половины. В одной части — лев, в другой его нет. Берем ту половину, в которой находится лев, и снова делим её пополам. Так повторяем до тех пор, пока лев не окажется пойман.</p>
+    </div>
+    <h2>Форматирование текста</h2>
+    <p>Обычный текст, <b>жирный</b>, <i>курсив</i>, <strong>полужирный</strong>, <em>акцент курсивом</em>.</p>
+    <p>Абзац с фрагментом <span style="color: red">красного текста</span> внутри.</p>
+    <h2>Выравнивание</h2>
+    <p align="center">По центру</p>
+    <p align="left">По левому краю</p>
+    <p align="right">По правому краю</p>
+    <p align="justify">По ширине — этот абзац длинный, чтобы растягивание было видно: браузер раздвигает слова так, чтобы левый и правый края строки выровнены.</p>
+        <h2>Картинка, обтекаемая текстом</h2>
+    <img src="lesson3/images/ezh.jpg" alt="Ёж" width="80" style="float: left; margin-right: 14px" />
+    <p>
+      Ежи защищены от внешней агрессии колючим панцирем, который спасает их от тех, кто хочет поживиться вкусным и
+      нежным мясом ежа. Но не стоит считать это животное и совершенно безобидным, всё-таки это хищник. Да, он не
+      питается волками и лисами, но только потому, что уступает им в размерах. А вот закусить червячком или даже змейкой
+      ему вполне под силу.
+    </p>
+    <hr/>
+    <h2>Элемент div — контейнер</h2>
+    <div style="max-width: 400px; border: 2px solid #2ce706; box-shadow: 0px 0px 10px #5e5e5e">
+      <img src="lesson3/images/dog.jpg" alt="dog" style="width: 100%" />
+      <p style="text-align: center">Стильный хороший мальчик</p>
+    </div>
+    <ul>
+      <li><a href="../index.html">Назад</a></li>
+    </ul>
 </html>
