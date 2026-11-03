@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оставьте заявку — Вкусы не спроста</title>
+</head>
+<body>
+
+  <header>
+    <h1>Вкусы не спроста</h1>
+    <p>Натуральные соки и морсы с доставкой</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Оставьте заявку</h2>
+      <p>
+        Заполните форму — мы свяжемся с вами в течение 15 минут 
+        и подберём удобное время доставки.
+      </p>
+
+      <form action="#" method="post">
+
+        <div>
+          <label for="name">Ваше имя *</label>
+          <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Иван Иванов"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="email">Email *</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="you@example.com"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="phone">Телефон</label>
+          <input 
+            type="tel" 
+            id="phone" 
+            name="phone" 
+            placeholder="+7 (999) 123-45-67"
+          >
+        </div>
+
+        <fieldset>
+          <legend>Как с вами связаться?</legend>
+          
+          <input type="radio" id="contact-phone" name="contact" value="phone" checked>
+          <label for="contact-phone">По телефону</label>
+          
+          <input type="radio" id="contact-email" name="contact" value="email">
+          <label for="contact-email">По email</label>
+        </fieldset>
+
+        <div>
+          <label for="topic">Тема обращения</label>
+          <select id="topic" name="topic">
+            <option value="">— Выберите —</option>
+            <option value="order">Оформить заказ</option>
+            <option value="question">Задать вопрос</option>
+            <option value="cooperation">Сотрудничество</option>
+            <option value="review">Оставить отзыв</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="message">Сообщение</label>
+          <textarea 
+            id="message" 
+            name="message" 
+            rows="5" 
+            placeholder="Расскажите, что вас интересует..."
+          ></textarea>
+        </div>
+
+        <div>
+          <input type="checkbox" id="agree" name="agree" required>
+          <label for="agree">
+            Я согласен на обработку персональных данных
+          </label>
+        </div>
+
+        <button type="submit">Отправить</button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Вкусы не спроста</p>
+  </footer>
+
+</body>
+</html>
